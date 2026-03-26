@@ -1,0 +1,12 @@
+gatk=/EClab/Software/conda/Miniconda/envs/normal/bin/gatk
+ref=/EClab/Backup/Project/Snow_leopard/03.Re-sequencing/00.ref/Huyibo/GWHFIPP00000000.1.genome.fasta
+fai=/EClab/Project/Snow_leopard/Future/02.Joint_call/bin/GWHFIPP00000000.1.genome.fasta.fai
+gvcflist=/EClab/Project/Snow_leopard/Future/02.Joint_call/bin/gvcf.snow.list
+maf=0.05
+vcftools=/EClab/Software/conda/Miniconda/envs/normal/bin/vcftools
+bcftools=/EClab/Software/conda/Miniconda/envs/normal/bin/bcftools
+bgzip=/EClab/Software/conda/Miniconda/envs/normal/bin/bgzip
+tabix=/EClab/Software/conda/Miniconda/envs/normal/bin/tabix
+plink=/EClab/Software/conda/Miniconda/envs/normal/bin/plink
+step1=/EClab/Project/Snow_leopard/Future/02.Joint_call/bin/step1.get_DP.filoutlier.pl
+step2=/EClab/Project/Snow_leopard/Future/02.Joint_call/bin/step2.filter_PLvalue.pl
