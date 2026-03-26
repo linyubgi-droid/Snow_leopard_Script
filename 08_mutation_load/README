@@ -1,1 +1,3 @@
-
+step1.snpeff.ann.sh: Annotates potentially deleterious mutations using SnpEff.
+step2.stat.sh: Summarizes and calculates statistics for the annotation results.
+step3.GranthamScore.sh: Performs dnSNP analysis based on Grantham scores.
