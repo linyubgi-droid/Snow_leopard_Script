@@ -1,1 +1,14 @@
-
+qpBrute --par par --threads 16  --prefix sim1 --pops  TA XJ RM TBW TBE QS QG --out Tiger
+DIR:   /EClab/Project/Snow_leopard/Future/06.Know_new/26.qpGraph/69/01.input
+S1:              f4
+indivname:       DIR/S1.ind
+snpname:         DIR/S1.snp
+genotypename:    DIR/S1.geno
+outpop:         NULL
+blgsize:        0.005
+## block size in Morgans for Jackknife
+lsqmode:       YES
+diag:          .0001
+hires:         YES
+useallsnps:   YES
+inbreed: NO
