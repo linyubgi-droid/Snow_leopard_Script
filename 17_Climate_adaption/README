@@ -1,1 +1,17 @@
+step1_Ensemble_sdm.R
+Constructs an ensemble Species Distribution Model (SDM) to predict current and future spatial patterns of habitat suitability.
 
+step2_RDA.R
+Performs Redundancy Analysis (RDA) to identify candidate adaptive SNPs significantly associated with key climatic drivers.
+
+step3_Lfmm.R
+Executes Latent Factor Mixed Models (LFMM) to rigorously filter climate-adaptive genetic markers while controlling for population structure.
+
+step4.gf_model_training.R
+Integrates environmental and allele frequency data to train and save the baseline Gradient Forest (GF) model for predicting spatial genetic turnover.
+
+step5.calc_genomic_offset.R
+Utilizes the trained GF model to batch-calculate standard Genomic Offset (Euclidean distance) across multiple future climate scenarios.
+
+step6.calc_forward_reverse_offset.R
+Exhaustively computes Local, Forward, and Reverse (LFR) spatial genetic offsets, generating multi-band RGB rasters for ternary visualization in ArcGIS.
