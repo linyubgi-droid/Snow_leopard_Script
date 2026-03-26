@@ -1,1 +1,4 @@
+Runs GATK-based joint calling according to the parameters and sample settings specified in the configuration file.
+perl step1.gatk.pl -conf config
+step1.gatk.pl: Executes GATK joint variant calling using the settings defined in the configuration file.
 
