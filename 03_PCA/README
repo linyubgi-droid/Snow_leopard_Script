@@ -1,0 +1,1 @@
+step1.pca.know.pl: Runs principal component analysis on the set of VCF files provided in VCF.list.
