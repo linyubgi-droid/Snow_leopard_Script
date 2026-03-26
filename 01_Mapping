@@ -1,5 +1,0 @@
-Mapping and filtering of Snow leopard data
-
-step1.grep_2G_bwa.uncleanfq.v2.pl: Performs read alignment for quality-controlled sequencing data from each lane independently.
-
-step2.mergebam.v2.pl: Merges the lane-level alignment BAM files belonging to the same sample.
